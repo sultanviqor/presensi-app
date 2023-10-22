@@ -20,3 +20,8 @@ Laravel 10 app ini mengimplementasikan beberapa fitur seperti autentikasi, menga
 
 ### Waktu Countdown
 - Menghitur mundur dari absen masuk sampai dengan jam kerja selesai.
+
+## Notes
+- Mengubah lokasi kantor ada di UserController line 80 & 119.
+- Mengubah jam kerja ada di Usercontroller line 100.
+- Akun pegawai 1, nip: 12345 pw: 1.
