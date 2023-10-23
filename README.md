@@ -24,4 +24,3 @@ Laravel 10 app ini mengimplementasikan beberapa fitur seperti autentikasi, menga
 ## Notes
 - Mengubah lokasi kantor ada di UserController line 80 & 119.
 - Mengubah jam kerja ada di Usercontroller line 100.
-- Akun pegawai 1, nip: 12345 pw: 1.
