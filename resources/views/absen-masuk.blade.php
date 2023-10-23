@@ -21,9 +21,9 @@
         <label for="">NIP</label>
         <input type="text" value="{{ $user->nip }}" required>
         <label for="">Gol</label>
-        <input type="text" value="{{ $user->golongan }}" required>
+        <input type="text" value="{{ $user->golongan }}">
         <label for="">Jabatan</label>
-        <input type="text" value="{{ $user->jabatan }}" required>
+        <input type="text" value="{{ $user->jabatan }}">
         <label for="">Tanggal</label>
         <input type="date" name="tanggal" id="" value="{{ date('Y-m-d') }}" required>
         <label for="">Jam Masuk</label>
