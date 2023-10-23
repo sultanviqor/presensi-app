@@ -12,15 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('perizinan', function (Blueprint $table) {
-            // $table->id();
-            // $table->integer('id_pegawai');
-            // $table->foreign('id_pegawai')->references('id_pegawai')->on('users');
-            // $table->date('tanggal_awal');
-            // $table->date('tanggal_akhir');
-            // $table->integer('durasi');
-            // $table->string('keterangan');
             $table->id();
-            $table->foreignId('user_id');
+            $table->foreignId('user_id')->constrained('users');
             $table->date('tanggal_awal');
             $table->date('tanggal_akhir');
             $table->integer('durasi');

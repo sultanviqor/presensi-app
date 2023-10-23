@@ -10,17 +10,6 @@ class Perizinan extends Model
 {
     use HasFactory;
     protected $table = "perizinan";
-    // protected $fillable = [
-    //     'id_pegawai',
-    //     'nip',
-    //     'nama',
-    //     'golongan',
-    //     'jabatan',
-    //     'tanggal_awal',
-    //     'tanggal_akhir',
-    //     'durasi',
-    //     'keterangan',
-    // ];
     protected $guarded = [
         'id',
     ];

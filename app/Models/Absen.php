@@ -10,17 +10,6 @@ class Absen extends Model
 {
     use HasFactory;
     protected $table = "absen";
-    // protected $fillable = [
-    //     'id_pegawai',
-    //     'nip',
-    //     'nama',
-    //     'tanggal',
-    //     'jam_masuk',
-    //     'jam_pulang',
-    //     'jam_kerja',
-    //     'jenis_absen',
-    //     'lokasi',
-    // ];
     protected $guarded = [
         'id',
     ];

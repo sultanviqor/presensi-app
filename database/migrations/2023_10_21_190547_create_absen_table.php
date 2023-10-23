@@ -12,17 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('absen', function (Blueprint $table) {
-            //     $table->id();
-            //     $table->integer('id');
-            //     $table->foreign('id')->references('id')->on('users');
-            //     $table->date('tanggal');
-            //     $table->time('jam_masuk')->nullable();
-            //     $table->time('jam_pulang')->nullable();
-            //     $table->integer('jam_kerja')->nullable();
-            //     $table->string('jenis_absen');
-            //     $table->string('lokasi')->nullable();
             $table->id();
-            $table->foreignId('user_id');
+            $table->foreignId('user_id')->constrained('users');
             $table->date('tanggal');
             $table->time('jam_masuk')->nullable();
             $table->time('jam_pulang')->nullable();
